@@ -1,6 +1,6 @@
-# Simulador de Banco no Console
+# Sistema de Gerenciamento de Usuários
 
-Este é um projeto simples em Java que simula a criação de uma conta bancária por meio de interações no console. O programa permite que o usuário escolha um banco, cadastre informações pessoais, gere um número de conta aleatório e realize um depósito inicial.
+Este é um projeto simples em Java que simula um sistema de gerenciamento de usuários por meio de interações no console. O programa permite realizar operações CRUD (Criar, Ler, Atualizar, Deletar) de usuários.
 
 ## Estrutura do Projeto
 
@@ -34,4 +34,4 @@ Este é um projeto simples em Java que simula a criação de uma conta bancária
    ```sh
    javac -d bin src/*.java
 
-   java -cp bin ContaTerminal
+   java -cp bin debug.Main
